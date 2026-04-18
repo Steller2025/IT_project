@@ -15,7 +15,7 @@
     gap: 20px;
 }
 .form-box, .info-box, .side-box {
-    background-color: black; /* transparent */
+    background-color: black; 
     padding: 15px;
     border-radius: 10px;
     color: white;
@@ -29,7 +29,7 @@
     width: 40%;
     text-align: center;
 }
-
+ 
 .side-box {
     width: 25%;
     text-align: center;
@@ -50,7 +50,6 @@ button {
     margin-top: 20px;
 }
 
-/* TOP BAR */
 .top-bar {
     display: flex;
     align-items: center;
@@ -63,7 +62,6 @@ button {
     margin: 0;
 }
 
-/* NAV */
 .top-nav {
     background: white;
     padding: 5px 10px;
@@ -82,14 +80,12 @@ button {
     color: blue;
 }
 
-/* SEARCH */
 .search-box input {
     padding: 6px 10px;
     border-radius: 20px;
     border: 1px solid gray;
 }
-/* SLIDER */
-/* SLIDER */
+
 .slider {
     width: 100%;
     height: 300px;
@@ -105,7 +101,6 @@ button {
     object-fit: contain;
 }
 
-/* BUTTONS */
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -132,13 +127,12 @@ button {
 }
 
 
-/* HOME CONTENT */
 .home-content {
     text-align: center;
     margin-top: 20px;
 }
 
-/* CARDS */
+
 .cards {
     display: flex;
     justify-content: space-around;
@@ -158,7 +152,7 @@ button {
     background: #ddd;
 }
 
-/* GALLERY GRID */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -166,7 +160,6 @@ button {
     margin-top: 20px;
 }
 
-/* THUMBNAILS */
 .gallery img {
     width: 100%;
     height: 240px;
@@ -177,7 +170,6 @@ button {
 }
 
 
-/* HOVER EFFECT */
 .gallery img:hover {
     transform: scale(1.05);
     opacity: 0.8;
@@ -186,17 +178,19 @@ button {
 
 body{
 
-    background-color: black
+ background-color: black;
+  max-width: 1200px; 
+  margin: 0 auto;   
+  width: 100%;      
+
 }
 
 
-/* BACKGROUND IMAGE */
 .about-bg, .home-bg {
     background: url("images/void.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
-/* DARK OVERLAY EFFECT (makes text readable) */
 .about-content {
     background-color: black;
     color: white;
@@ -205,7 +199,6 @@ body{
     border-radius: 10px;
 }
 
-/* TEXT STYLING */
 .about-content h2 {
     margin-top: 15px;
 }
@@ -227,13 +220,11 @@ body{
     
 }
 
-//* BACKGROUND IMAGE FOR PROJECTS */
 .projects-bg {
     background: url("images/void.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
-/* PROJECT LIST */
 .project-list {
     display: flex;
     flex-direction: column;
@@ -241,7 +232,6 @@ body{
     margin-top: 20px;
 }
 
-/* PROJECT CARD (glass effect) */
 .project-card {
     background-color: black;
     backdrop-filter: blur(8px);
@@ -250,7 +240,6 @@ body{
     color: white;
 }
 
-/* SLIDER BOX */
 .slider-box {
     position: relative;
     display: flex;
@@ -258,7 +247,6 @@ body{
     justify-content: center;
 }
 
-/* FIXED IMAGE (NO BLUR, NO CROPPING) */
 .slider-box img {
     width: 100%;
     height: 250px;
@@ -267,7 +255,6 @@ body{
     border-radius: 10px;
 }
 
-/* BUTTONS */
 .slider-box button {
     position: absolute;
     top: 50%;
@@ -288,7 +275,6 @@ body{
     right: 10px;
 }
 
-/* STATUS */
 .status {
     display: inline-block;
     padding: 5px 10px;

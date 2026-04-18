@@ -1,14 +1,3 @@
-function validateForm() {
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-
-    if (name === "" || email === "") {
-        alert("Fill all required fields");
-        return false;
-    }
-
-    return true;
-}
 
 let images = [
     "images/robot1.jpg",
